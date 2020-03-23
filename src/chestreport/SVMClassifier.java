@@ -67,12 +67,12 @@ public class SVMClassifier {
 		NInputs = IMG_WIDTH * IMG_HEIGHT;
 		
 		// Resize images
-//		System.out.println("Resize images");
+		System.out.println("Resize images");
 //		
-//		ResizeImages(dirTrainNormal, dirTrainResizedString, "normal");
-//		ResizeImages(dirTrainPneumonia, dirTrainResizedString, "pneumonia");
-//		ResizeImages(dirTestNormal, dirTestResizedString, "normal");
-//		ResizeImages(dirTestPneumonia, dirTestResizedString, "pneumonia");
+		ResizeImages(dirTrainNormal, dirTrainResizedString, "normal");
+		ResizeImages(dirTrainPneumonia, dirTrainResizedString, "pneumonia");
+		ResizeImages(dirTestNormal, dirTestResizedString, "normal");
+		ResizeImages(dirTestPneumonia, dirTestResizedString, "pneumonia");
 		
 		// Load images to train
 		System.out.println("Load images to train");
